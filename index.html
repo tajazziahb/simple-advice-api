@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Here for advice?</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="shell">
+        <header class="top">
+            <h1>Here for advice?</h1>
+            <p class="sub">Take a breath, type a topic, and we’ll pull a little wisdom for you.</p>
+        </header>
+
+        <section class="panel" role="form" aria-label="Advice search">
+            <div class="row">
+                <input id="topic" type="text" placeholder="Type a single word (e.g., love)" autocomplete="off" />
+                <button id="search" class="btn">Get Advice</button>
+                <button id="random" class="btn btn-ghost">Random</button>
+            </div>
+
+            <div class="output" id="output"></div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
