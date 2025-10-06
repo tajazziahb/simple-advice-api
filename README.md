@@ -3,7 +3,7 @@
 A calm, cozy space where you can type a **topic** or tap **Random** to receive a bit of wisdom from the **Advice Slip API**.  
 Built with soft chocolate-nude tones to feel comforting, grounded, and easy on the eyes — like a warm note passed across the table.
 
-[Link to project](replace with your live demo)  
+[Link to project](https://simple-advice-api.vercel.app/)  
 ![screenshot](img/advice.png "Here for Advice — Advice API App")
 
 ---
